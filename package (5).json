@@ -1,0 +1,16 @@
+{
+  "name": "bqml-experiment-gate",
+  "version": "1.0.0",
+  "description": "Leakage-safe BigQuery ML two-phase experiment gate (select / evaluate)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
